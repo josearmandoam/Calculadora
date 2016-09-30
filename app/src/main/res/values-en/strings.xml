@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="noDatos">No data found</string>
+    <string name="noSegOperando">Introduce the second operator</string>
+    <string name="mBorrado">Deleted memory</string>
+    <string name="mVacia">Empty memory</string>
+    <string name="mGuardada">Memory saved</string>
+</resources>

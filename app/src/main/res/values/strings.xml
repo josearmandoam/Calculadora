@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="noDatos">No has introducido datos</string>
+    <string name="noSegOperando">Introduce el segundo operando</string>
+    <string name="mBorrado">Se ha borrado la memoria</string>
+    <string name="mVacia">La memoria está vacía</string>
+    <string name="mGuardada">Se ha guardado correctamente</string>
+</resources>
