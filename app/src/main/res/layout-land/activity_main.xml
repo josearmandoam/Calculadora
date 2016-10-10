@@ -75,6 +75,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+            <Button
+                android:textColor="#FF000000"
+                android:background="@drawable/celdasborrados"
+                android:textStyle="italic"
+                android:text=" √"
+                android:id="@+id/bRaiz"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:onClick="pulsado"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
             <Button
                 android:background="@drawable/celdas"
@@ -142,7 +154,18 @@
         <TableRow android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
-
+            <Button
+                android:textColor="#FF000000"
+                android:background="@drawable/celdasborrados"
+                android:textStyle="italic"
+                android:text="Tan"
+                android:id="@+id/bTan"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:onClick="pulsado"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
             <Button
                 android:textColor="@android:color/white"
                 android:background="@drawable/celdas"
@@ -209,7 +232,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
-
+            <Button
+                android:textColor="#FF000000"
+                android:background="@drawable/celdasborrados"
+                android:textStyle="italic"
+                android:text="Cos"
+                android:id="@+id/bCos"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:onClick="pulsado"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
             <Button
                 android:textColor="@android:color/white"
                 android:background="@drawable/celdas"
@@ -274,6 +308,19 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
+
+            <Button
+                android:textColor="#FF000000"
+                android:background="@drawable/celdasborrados"
+                android:textStyle="italic"
+                android:text="Sen"
+                android:id="@+id/bSen"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:onClick="pulsado"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
             <Button
                 android:textColor="@android:color/white"

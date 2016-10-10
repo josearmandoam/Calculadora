@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void pulsado(View v) {
         b = (Button) findViewById(v.getId());
-            if (v.getId() != R.id.bMas && v.getId() != R.id.bDividir && v.getId() != R.id.bMenos && v.getId() != R.id.bMul && v.getId() != R.id.bIgual && v.getId() != R.id.bC && v.getId() != R.id.bCE && v.getId() != R.id.bDEL && v.getId() != R.id.bM) {
+            if (v.getId() != R.id.bMas && v.getId() != R.id.bDividir && v.getId() != R.id.bMenos && v.getId() != R.id.bMul && v.getId() != R.id.bIgual && v.getId() != R.id.bC && v.getId() != R.id.bCE && v.getId() != R.id.bDEL && v.getId() != R.id.bM && v.getId()!=R.id.bTan && v.getId()!= R.id.bCos && v.getId()!= R.id.bSen && v.getId()!= R.id.bRaiz) {
                 if (reinicio == false) {
                     if (b.getText().equals(".") && punto == false) {//Controlar que no se introduzan mas de un punto.
                         operando = operando + b.getText();
@@ -570,6 +570,26 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
 
+                        break;
+                    case R.id.bRaiz:
+                        String n=t.getText().toString();
+                        double op=Double.parseDouble(n);
+                        t.setText(""+Math.sqrt(op));
+                        break;
+                    case R.id.bTan:
+                        String n2=t.getText().toString();
+                        double o2=Double.parseDouble(n2);
+                        t.setText(""+ Math.tan(Math.toRadians(o2)));
+                        break;
+                    case R.id.bCos:
+                        String n3=t.getText().toString();
+                        double o3=Double.parseDouble(n3);
+                        t.setText(""+ Math.cos(Math.toRadians(o3)));
+                        break;
+                    case R.id.bSen:
+                        String n4=t.getText().toString();
+                        double o4=Double.parseDouble(n4);
+                        t.setText(""+ Math.cos(Math.toRadians(o4)));
                         break;
                 }
             }
